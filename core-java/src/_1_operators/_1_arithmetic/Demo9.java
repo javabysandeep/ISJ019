@@ -1,0 +1,26 @@
+package _1_operators._1_arithmetic;
+
+public class Demo9 {
+    public static void main(String[] args) {
+        int number = 456;
+        int sumOfDigits = 0;
+        int digit = 0;
+
+        digit = number % 10;
+        sumOfDigits += digit; //sumOfDigits = sumOfDigits + digit;
+        number /= 10; //number = number / 10;
+
+        digit = number % 10;
+        sumOfDigits += digit; //sumOfDigits = sumOfDigits + digit;
+        number /= 10; //number = number / 10;
+
+
+        digit = number % 10;
+        sumOfDigits += digit; //sumOfDigits = sumOfDigits + digit;
+        number /= 10; //number = number / 10;
+
+        System.out.println("Sum of digits: " + sumOfDigits);
+
+
+    }
+}
