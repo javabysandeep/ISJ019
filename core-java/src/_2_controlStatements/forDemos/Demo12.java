@@ -8,8 +8,8 @@ public class Demo12 {
         for (int i = 1; i <= n; i++) {
             sum += i;
         }
-        System.out.println("Sum = " + sum);
-        System.out.println("sum using math=" + (n * (n + 1) / 2));
+        System.out.println("Sum = " + sum);//5050
+        System.out.println("sum using math=" + (n * (n + 1) / 2));//5050
 
     }
 }

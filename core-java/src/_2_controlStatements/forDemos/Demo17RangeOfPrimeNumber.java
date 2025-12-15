@@ -2,7 +2,9 @@ package _2_controlStatements.forDemos;
 
 public class Demo17RangeOfPrimeNumber {
     public static void main(String[] args) {
+
         for (int number = 1; number <= 100; number++) {
+
             boolean isPrime = true;
             for (int i = 2; i <= number / 2; i++) {
                 if (number % i == 0) {
@@ -11,10 +13,9 @@ public class Demo17RangeOfPrimeNumber {
                 }
             }
             if (isPrime) {
-                System.out.println(number);
+                System.out.println("prime = " + number);
             }
+
         }
-
-
     }
 }

@@ -12,7 +12,7 @@ public class Demo14FactorsSum {
          *
          * */
 
-        int number = 14;
+        int number = 28;
         int sum = 0;
         //range of factors 1 to number/2
         for (int i = 1; i <= number / 2; i++) {
@@ -24,7 +24,7 @@ public class Demo14FactorsSum {
         System.out.println("sum of factors = " + sum);
 
         //perfect number [ sum of factors = given number]
-        //e.g. 6 [1+2+3=6], 28[1+2+4+7+!4=28]
+        //e.g. 6 [1+2+3=6], 28[1+2+4+7+14=28]
 
         System.out.println(sum == number ? "its perfect" : "not a perfect");
     }

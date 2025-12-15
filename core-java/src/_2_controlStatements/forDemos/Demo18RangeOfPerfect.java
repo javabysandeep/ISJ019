@@ -2,6 +2,7 @@ package _2_controlStatements.forDemos;
 
 public class Demo18RangeOfPerfect {
     public static void main(String[] args) {
+
         for (int number = 1; number <= 10000; number++) {
 
             //check if the number is perfect or not
