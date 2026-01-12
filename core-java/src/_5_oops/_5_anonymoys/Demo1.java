@@ -7,10 +7,12 @@ public class Demo1 {
             void m1() {
             }
         }
+
         //02. abstract class
         abstract class B {
             abstract void m1();
         }
+
         //03. interface
         interface C {
             void m1();
