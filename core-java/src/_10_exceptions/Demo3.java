@@ -1,17 +1,12 @@
 package _10_exceptions;
 
-public class Demo2 {
+public class Demo3 {
     public static void main(String[] args) {
         try {
-            System.out.println(10 / 1);
-            String str = null;
-            System.out.println(str.length());//NPE
-        }
-        //custom exception handler
-        catch (ArithmeticException e) {
+            System.out.println(10 / 0);
+            System.out.println("rest of the try");
+        } catch (ArithmeticException e) {
             System.out.println("invalid denominator");
-        } catch (NullPointerException npe) {
-            System.out.println("invalid reference");
         }
         System.out.println("rest of the main");
         System.out.println("rest of the main");
