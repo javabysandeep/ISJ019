@@ -1,0 +1,22 @@
+welcome to file handling topic.
+
+Byte oriented streams
+	- InputStream(AC) -----> Read the bytes
+		- FileInputStream ---> read bytes from the file
+		- BufferedInputStream ---> read bytes from the buffer
+		- ObjectInputStream -----> read objects from the file
+	- OutputSream(AC)-----> Write the bytes
+		- FileOutputStream ---> write bytes to the file
+		- BufferedOutputStream ---> write bytes to the buffer
+		- ObjectOutputStream -----> write object to the file
+
+
+Character oriented streams
+	- Reader(AC) -----> Read the characters
+		- FileReader---> read characters from the file
+		- BufferedReader ---> read characters from the buffer
+
+	- Writer(AC)-----> Write the characters
+		- FileWriter---> write characters to the file
+BufferedWriter ---> write characters to the buffer
+AAwritten using FileWriterwritten using bufferedWriter
