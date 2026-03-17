@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.itshaala.Product" name="product" scope="singleton">
+        <!--
+          <property name="id" value="101"/>
+          <property name="name" value="laptop"/>
+          <property name="price" value="70000"/>
+
+         -->
+        <constructor-arg name="id" value="201"/>
+        <constructor-arg name="name" value="mobile"/>
+        <constructor-arg name="price" value="19000"/>
+    </bean>
+
+</beans>
